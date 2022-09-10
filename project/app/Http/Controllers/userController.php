@@ -14,7 +14,6 @@ session_start();
 class userController extends Controller
 {
     public function index(){
-    
     }
 
     //Add User 1

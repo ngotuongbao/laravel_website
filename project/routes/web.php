@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-//Frontend
+//user
 Route::get('/', [App\Http\Controllers\homeController::class,'index'])->name('/home');
 Route::get('/shop', [App\Http\Controllers\homeController::class,'shopPage']);
 Route::post('/search', [App\Http\Controllers\homeController::class,'searchPage']);

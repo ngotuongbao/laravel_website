@@ -9,10 +9,8 @@ use Illuminate\Http\Rediect;
 use App\Http\Requests;
 session_start();
 
-class shopController extends Controller
-{
-    public function index()
-    {
+class shopController extends Controller{
+    public function index(){
         return view('pages.shop');
     }
 }
